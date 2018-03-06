@@ -1,10 +1,10 @@
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common\misc/WindowUtils.h"
+#include "../Common\misc/WindowUtils.h"
+
+#include "../Common\2D/Vector2D.h"
+#include "../Common\misc/utils.h"
+#include "../Common\misc/Stream_Utility_Functions.h"
+
 #include <windows.h>
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common\2D/Vector2D.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common\misc/utils.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common\misc/Stream_Utility_Functions.h"
-
-
 
 //---------------------- ChangeMenuState ---------------------------------
 //

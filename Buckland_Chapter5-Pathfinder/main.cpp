@@ -8,12 +8,12 @@
 #pragma comment(lib, "comctl32.lib")
 
 #include "constants.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/utils.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/Time/PrecisionTimer.h"
+#include "../Common/misc/utils.h"
+#include "../Common/Time/PrecisionTimer.h"
 #include "Pathfinder.h"
 #include "resource.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/Cgdi.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/WindowUtils.h"
+#include "../Common/misc/Cgdi.h"
+#include "../Common/misc/WindowUtils.h"
 
 
 //need to define a custom message so that the backbuffer can be resized to 

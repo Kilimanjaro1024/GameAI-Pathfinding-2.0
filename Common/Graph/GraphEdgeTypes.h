@@ -13,7 +13,7 @@
 #include <ostream>
 #include <fstream>
 
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/graph/NodeTypeEnumerations.h"
+#include "../Common/graph/NodeTypeEnumerations.h"
 
 
 class GraphEdge

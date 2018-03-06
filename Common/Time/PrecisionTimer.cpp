@@ -1,4 +1,4 @@
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common\Time/PrecisionTimer.h"
+#include "../Common\Time/PrecisionTimer.h"
 
 
 //---------------------- default constructor ------------------------------

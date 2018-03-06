@@ -14,11 +14,16 @@
 //-----------------------------------------------------------------------------
 #include <iostream>
 
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/Cgdi.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/utils.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/Stream_Utility_Functions.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/Graph/GraphAlgorithms.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/Graph/AStarHeuristicPolicies.h"
+//#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/Cgdi.h"
+#include <..\Common/misc/Cgdi.h>
+#include <..\Common/misc/utils.h>
+#include <..\Common/misc/Stream_Utility_Functions.h>
+#include <..\Common/Graph/GraphAlgorithms.h>
+#include <..\Common/Graph/AStarHeuristicPolicies.h>
+//#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/utils.h"
+//#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/Stream_Utility_Functions.h"
+//#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/Graph/GraphAlgorithms.h"
+//#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/Graph/AStarHeuristicPolicies.h"
 
 
 

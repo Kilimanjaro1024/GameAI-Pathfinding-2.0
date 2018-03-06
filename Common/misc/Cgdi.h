@@ -18,7 +18,8 @@
 #include <vector>
 #include <cassert>
 
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common\2D/Vector2D.h"
+//#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common\2D/Vector2D.h"
+#include <../Common/2D/Vector2D.h>
 
 
 //------------------------------- define some colors

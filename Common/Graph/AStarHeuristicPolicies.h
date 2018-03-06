@@ -9,7 +9,7 @@
 //  Desc:   class templates defining a heuristic policy for use with the A*
 //          search algorithm
 //-----------------------------------------------------------------------------
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/utils.h"
+//#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/utils.h"
 
 //-----------------------------------------------------------------------------
 //the euclidian heuristic (straight-line distance)

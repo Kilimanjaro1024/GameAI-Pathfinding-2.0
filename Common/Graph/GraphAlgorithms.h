@@ -21,8 +21,8 @@
 #include <queue>
 #include <stack>
 
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/graph/SparseGraph.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/PriorityQueue.h"
+#include "../Common/graph/SparseGraph.h"
+#include "../Common/misc/PriorityQueue.h"
 
 
 //----------------------------- Graph_SearchDFS -------------------------------

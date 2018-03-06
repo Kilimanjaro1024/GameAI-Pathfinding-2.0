@@ -17,9 +17,9 @@
 #include <iostream>
 
 
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/2D/Vector2D.h"
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/misc/utils.h" 
-#include "C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/graph/NodeTypeEnumerations.h"
+#include "../Common/2D/Vector2D.h"
+#include "../Common/misc/utils.h" 
+#include "../Common/graph/NodeTypeEnumerations.h"
 
 
 

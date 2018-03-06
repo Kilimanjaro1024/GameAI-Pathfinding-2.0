@@ -2,22 +2,22 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{32caa1bb-b66c-42e2-8b31-bee5b2baf397}</UniqueIdentifier>
+      <UniqueIdentifier>{3cf2f914-dccf-4b90-8bac-15a94740f0a7}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{b240fa57-7adf-4253-832b-6c04baa26f3a}</UniqueIdentifier>
+      <UniqueIdentifier>{60015628-c6de-48f0-90ce-e1d33717357b}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{2ad510a8-2c90-4b71-b091-48f828de5d81}</UniqueIdentifier>
+      <UniqueIdentifier>{ed2faa2a-a99f-4f08-b2e1-226e8faea9d1}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="graph related files">
-      <UniqueIdentifier>{6604b798-344d-4226-99da-eb1d356ce3d8}</UniqueIdentifier>
+      <UniqueIdentifier>{19b4aed8-326c-4ec6-a23d-4650dea1680d}</UniqueIdentifier>
     </Filter>
     <Filter Include="common">
-      <UniqueIdentifier>{76f3f179-19c1-4195-80c3-c4df5fcf27c3}</UniqueIdentifier>
+      <UniqueIdentifier>{08be72f6-f569-4fcf-913f-74defb2c20e6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
