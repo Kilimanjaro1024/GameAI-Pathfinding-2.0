@@ -1,0 +1,12 @@
+﻿  Cgdi.cpp
+  WindowUtils.cpp
+  PrecisionTimer.cpp
+  main.cpp
+  Pathfinder.cpp
+C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/Graph/SparseGraph.h(393): warning C4018: '>=': signed/unsigned mismatch
+  C:\Users\clay_\Desktop\Programming-Game-AI-by-Example-src.git\trunk\Common/Graph/SparseGraph.h(392): note: while compiling class template member function 'bool SparseGraph<NavGraphNode<void *>,GraphEdge>::isNodePresent(int) const'
+  Pathfinder.cpp(173): note: see reference to function template instantiation 'bool SparseGraph<NavGraphNode<void *>,GraphEdge>::isNodePresent(int) const' being compiled
+  c:\users\clay_\documents\github\gameai-pathfinding-2.0\buckland_chapter5-pathfinder\Pathfinder.h(140): note: see reference to class template instantiation 'SparseGraph<NavGraphNode<void *>,GraphEdge>' being compiled
+  Generating Code...
+c:\users\clay_\documents\github\gameai-pathfinding-2.0\buckland_chapter5-pathfinder\pathfinder.cpp(421): warning C4715: 'Pathfinder::GetNameOfCurrentSearchAlgorithm': not all control paths return a value
+  Pathfinder.vcxproj -> C:\Users\clay_\Documents\GitHub\GameAI-Pathfinding-2.0\Buckland_Chapter5-Pathfinder\.\Release\Pathfinder.exe
