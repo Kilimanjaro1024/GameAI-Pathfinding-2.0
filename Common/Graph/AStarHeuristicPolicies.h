@@ -65,8 +65,38 @@ public:
 };
 
 
+//-----------------------------------------------------------------------------
+//you can use this class to turn the A* algorithm into Dijkstra's search.
+//this is because Dijkstra's is equivalent to an A* search using a heuristic
+//value that is always equal to zero.
+//-----------------------------------------------------------------------------
+class Heuristic_Dijkstra
+{
+public:
 
+	template <class graph_type>
+	static double Calculate(const graph_type& G, int nd1, int nd2)
+	{
+		return 0;
+	}
+};
 
+//-----------------------------------------------------------------------------
+// Octie Distance between two points
+//-----------------------------------------------------------------------------
+class Heuristic_Octile
+{
+public:
 
+	template <class graph_type>
+	static double Calculate(const graph_type& G, int nd1, int nd2)
+	{
+		int D = 1;
+		int D2 = sqrt(2);
+		int dx = abs(G.GetNode(nd1).Pos() - G.GetNode(nd2).Pos());
+		int dy = abs(G.GetNode(nd1).Pos() - G.GetNode(nd2).Pos());
+		return (double)(D * (dx + dy) + (D2 - 2 * D) * min(dx, dy));
+	}
+};
 
 #endif
