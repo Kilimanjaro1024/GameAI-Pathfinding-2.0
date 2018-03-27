@@ -41,7 +41,8 @@ public:
 		source = 4,
 		target = 5,
 		road = 6,
-		Void = 7
+		Void = 7,
+		sourceTwo = 8,
   };
       
   enum algorithm_type
@@ -60,6 +61,7 @@ private:
 
   //this vector will store any path returned from a graph search
   std::list<int>                m_Path;
+  std::list<int>                m_PathTwo;
 
   //create a typedef for the graph type
   typedef SparseGraph<NavGraphNode<void*>, GraphEdge> NavGraph;
@@ -69,9 +71,11 @@ private:
   //this vector of edges is used to store any subtree returned from 
   //any of the graph algorithms (such as an SPT)
   std::vector<const GraphEdge*> m_SubTree;
+  std::vector<const GraphEdge*> m_SubTreeTwo;
 
   //the total cost of the path from target to source
   double                         m_dCostToTarget;
+  double                         m_dCostToTargetTwo;
 
   //the currently selected algorithm
   algorithm_type                m_CurrentAlgorithm;
@@ -93,6 +97,7 @@ private:
 
   //the indices of the source and target cells
   int                           m_iSourceCell,
+								m_iSourceTwo,
                                 m_iTargetCell;
 
   //flags to indicate if the start and finish points have been added
@@ -130,6 +135,7 @@ public:
                 m_dTimeTaken(0.0),
                 m_CurrentTerrainBrush(normal),
                 m_iSourceCell(0),
+				m_iSourceTwo(0),
                 m_iTargetCell(0),
                 m_icxClient(0),
                 m_icyClient(0),
@@ -169,6 +175,7 @@ public:
 
   void ChangeSource(const int cell){m_iSourceCell = cell;}
   void ChangeTarget(const int cell){m_iTargetCell = cell;}
+  void ChangeSourceTwo(const int cell) { m_iSourceTwo = cell; }
 
   //converts a POINTS to an index into the graph. Returns false if p
   //is invalid

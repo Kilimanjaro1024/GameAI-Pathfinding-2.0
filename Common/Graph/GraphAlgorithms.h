@@ -358,7 +358,7 @@ std::list<int> Graph_SearchBFS<graph_type>::GetPathToTarget()const
 //  
 //  double NewCost = m_CostToThisNode[best] + pE->Cost;
 //------------------------------------------------------------------------
-template <class graph_type>
+template <class graph_type, class heuristic>
 class Graph_SearchDijkstra
 {
 private:
@@ -426,8 +426,8 @@ public:
 
 
 //-----------------------------------------------------------------------------
-template <class graph_type>
-void Graph_SearchDijkstra<graph_type>::Search()
+template <class graph_type, class heuristic>
+void Graph_SearchDijkstra<graph_type, heuristic>::Search()
 {
   //create an indexed priority queue that sorts smallest to largest
   //(front to back).Note that the maximum number of elements the iPQ
@@ -497,8 +497,8 @@ void Graph_SearchDijkstra<graph_type>::Search()
 }
 
 //-----------------------------------------------------------------------------
-template <class graph_type>
-std::list<int> Graph_SearchDijkstra<graph_type>::GetPathToTarget()const
+template <class graph_type, class heuristic>
+std::list<int> Graph_SearchDijkstra<graph_type, heuristic>::GetPathToTarget()const
 {
   std::list<int> path;
 

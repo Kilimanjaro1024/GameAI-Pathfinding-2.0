@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
-Release|Win32|C:\Users\christopher.harper\Desktop\GitHub\GameAI-Pathfinding-2.0\Buckland_Chapter5-Pathfinder\|
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.16299.0
+Release|Win32|C:\Users\clay_\Documents\GitHub\GameAI-Pathfinding-2.0\Buckland_Chapter5-Pathfinder\|

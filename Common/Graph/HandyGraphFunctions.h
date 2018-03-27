@@ -267,7 +267,7 @@ std::vector<std::vector<double> > CreateAllPairsCostsTable(const graph_type& G)
   //create a two dimensional vector
   std::vector<double> row(G.NumNodes(), 0.0);
   std::vector<std::vector<double> > PathCosts(G.NumNodes(), row);
-
+  
   for (int source=0; source<G.NumNodes(); ++source)
   {
     //do the search

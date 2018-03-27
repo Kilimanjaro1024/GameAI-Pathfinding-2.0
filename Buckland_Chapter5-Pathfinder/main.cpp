@@ -281,6 +281,10 @@ LRESULT CALLBACK WindowProc (HWND   hwnd,
 		  g_Pathfinder->ChangeBrush(Pathfinder::Void);
 
 		  break;
+	  case ID_BUTTON_STARTTWO:
+		  g_Pathfinder->ChangeBrush(Pathfinder::sourceTwo);
+
+		  break;
 //CM END
       case ID_BUTTON_DFS:
 
@@ -482,7 +486,7 @@ LRESULT CALLBACK WindowProc (HWND   hwnd,
 HWND CreateToolBar(HWND hwndParent, HINSTANCE hinstMain)
 {
 
-  const int NumButtons = 13;
+  const int NumButtons = 14;
   
   //load in the common ctrls from the dll
   INITCOMMONCONTROLSEX cc;
@@ -585,42 +589,49 @@ HWND CreateToolBar(HWND hwndParent, HINSTANCE hinstMain)
   button[7].fsStyle = TBSTYLE_CHECKGROUP;
   button[7].dwData = NULL;
   button[7].iString = NULL;
+
+  button[8].iBitmap = 8;
+  button[8].idCommand = ID_BUTTON_STARTTWO;
+  button[8].fsState = TBSTATE_ENABLED;
+  button[8].fsStyle = TBSTYLE_CHECKGROUP;
+  button[8].dwData = NULL;
+  button[8].iString = NULL;
 //CM END
   //this creates a separater
-  button[8].iBitmap   = 200;
-  button[8].idCommand = 0;
-  button[8].fsState   = NULL;
-  button[8].fsStyle   = TBSTYLE_SEP;
-  button[8].dwData    = NULL;
-  button[8].iString   = NULL;
-
-  button[9].iBitmap   = 9;
-  button[9].idCommand = ID_BUTTON_DFS;
-  button[9].fsState   = TBSTATE_ENABLED;
-  button[9].fsStyle   = TBSTYLE_CHECKGROUP;
+  button[9].iBitmap   = 195;
+  button[9].idCommand = 0;
+  button[9].fsState   = NULL;
+  button[9].fsStyle   = TBSTYLE_SEP;
   button[9].dwData    = NULL;
   button[9].iString   = NULL;
 
   button[10].iBitmap   = 10;
-  button[10].idCommand = ID_BUTTON_BFS;
+  button[10].idCommand = ID_BUTTON_DFS;
   button[10].fsState   = TBSTATE_ENABLED;
   button[10].fsStyle   = TBSTYLE_CHECKGROUP;
   button[10].dwData    = NULL;
   button[10].iString   = NULL;
 
   button[11].iBitmap   = 11;
-  button[11].idCommand = ID_BUTTON_DIJKSTRA;
+  button[11].idCommand = ID_BUTTON_BFS;
   button[11].fsState   = TBSTATE_ENABLED;
   button[11].fsStyle   = TBSTYLE_CHECKGROUP;
   button[11].dwData    = NULL;
   button[11].iString   = NULL;
 
   button[12].iBitmap   = 12;
-  button[12].idCommand = ID_BUTTON_ASTAR;
+  button[12].idCommand = ID_BUTTON_DIJKSTRA;
   button[12].fsState   = TBSTATE_ENABLED;
   button[12].fsStyle   = TBSTYLE_CHECKGROUP;
   button[12].dwData    = NULL;
   button[12].iString   = NULL;
+
+  button[13].iBitmap   = 13;
+  button[13].idCommand = ID_BUTTON_ASTAR;
+  button[13].fsState   = TBSTATE_ENABLED;
+  button[13].fsStyle   = TBSTYLE_CHECKGROUP;
+  button[13].dwData    = NULL;
+  button[13].iString   = NULL;
 
 
 

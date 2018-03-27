@@ -23,6 +23,7 @@
 #define ID_MENU_NEW                     40021
 #define ID_BUTTON_ROAD					40022 //cm
 #define ID_BUTTON_VOID					40023 //cm
+#define ID_BUTTON_STARTTWO			    40024
 
 // Next default values for new objects
 // 
